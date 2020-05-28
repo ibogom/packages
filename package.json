@@ -1,0 +1,26 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibogom/packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibogom/packages/issues"
+  },
+  "homepage": "https://github.com/ibogom/packages#readme",
+  "dependencies": {
+    "lerna": "^3.22.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
