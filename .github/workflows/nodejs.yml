@@ -14,9 +14,15 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: Install dependencies
-        run: yarn install
-      - name: Release
+          registry-url: https://npm.pkg.github.com/
+          scope: "@ibogom"
+          env:
+            NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies and Release
+        run: |
+          yarn install
+          echo @OWNER:registry=https://npm.pkg.github.com/ >> .npmrc
+          yarn release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn release
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

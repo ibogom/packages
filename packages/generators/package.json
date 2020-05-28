@@ -13,5 +13,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "gitHead": "5749cd9adbd826a21dd867a6e8d1e15576fcf759"
 }
