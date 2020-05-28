@@ -4,9 +4,6 @@
   "private": true,
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "release": "lerna publish"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ibogom/packages.git"
