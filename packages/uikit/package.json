@@ -1,6 +1,6 @@
 {
   "name": "@pinua/uikit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix .",
@@ -11,7 +11,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@ibogom/presets": "^1.0.0",
+    "@ibogom/presets": "^1.0.1",
     "eslint": "^5.8.0",
     "formik": "^2.1.4",
     "prettier-stylelint": "^0.4.2",

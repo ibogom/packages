@@ -1,6 +1,6 @@
 {
   "name": "@ibogom/generator-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman Generators",
   "main": "index.js",
   "keywords": [
